@@ -1,6 +1,34 @@
+#include "TROOT.h" 
+#include "iostream"
+#include <iomanip>
+#include "TH1.h"
+#include "TF1.h"
+#include "TCanvas.h"
+#include "TPad.h"
+#include "stdlib.h"
+#include "TStyle.h"
+#include "TH1D.h"
+#include "TGraph.h"
+#include "TRandom2.h"
+#include "TAxis.h"
+#include "TLegend.h"
+#include "TFile.h"
+#include "string.h"
+#include "TChain.h"
+#include "TTree.h"
+#include "TArrow.h"
+#include "TGaxis.h"
+#include "TLatex.h"
+#include "TBufferFile.h"
+#include "TLorentzVector.h"
+#include "THStack.h"
+#include <math.h>
+
 #include "headers/Meteorite.h"
 
-void plot1()
+using namespace std;
+
+void landing_frequency()
 {
     // Input file directory
     string inDir = "../rootfiles/";
