@@ -1,5 +1,9 @@
 # AstroPlot
 
+## Solar Radiation on Earth Surface
+
+![](./results/SurfaceSolarRadiation.png)
+
 ## Meteorite Landings
 
 This section analyses public datasets for meteorite landing from NASA. Relevant ROOT macros can be found under `/MeteoriteLandingPlots` and results could be found under `/results`.
